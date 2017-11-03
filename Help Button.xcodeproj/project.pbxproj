@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEF2F76D1FAD2EFB00509638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2F76C1FAD2EFB00509638 /* AppDelegate.swift */; };
+		AEF2F76F1FAD2EFB00509638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2F76E1FAD2EFB00509638 /* ViewController.swift */; };
+		AEF2F7721FAD2EFB00509638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF2F7701FAD2EFB00509638 /* Main.storyboard */; };
+		AEF2F7741FAD2EFB00509638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF2F7731FAD2EFB00509638 /* Assets.xcassets */; };
+		AEF2F7771FAD2EFB00509638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF2F7751FAD2EFB00509638 /* LaunchScreen.storyboard */; };
+		AEF2F7821FAD2EFB00509638 /* Help_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2F7811FAD2EFB00509638 /* Help_ButtonTests.swift */; };
+		AEF2F78D1FAD2EFB00509638 /* Help_ButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2F78C1FAD2EFB00509638 /* Help_ButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEF2F77E1FAD2EFB00509638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF2F7611FAD2EFB00509638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF2F7681FAD2EFB00509638;
+			remoteInfo = "Help Button";
+		};
+		AEF2F7891FAD2EFB00509638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF2F7611FAD2EFB00509638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF2F7681FAD2EFB00509638;
+			remoteInfo = "Help Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEF2F7691FAD2EFB00509638 /* Help Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Help Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF2F76C1FAD2EFB00509638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEF2F76E1FAD2EFB00509638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEF2F7711FAD2EFB00509638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEF2F7731FAD2EFB00509638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEF2F7761FAD2EFB00509638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEF2F7781FAD2EFB00509638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF2F77D1FAD2EFB00509638 /* Help ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Help ButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF2F7811FAD2EFB00509638 /* Help_ButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_ButtonTests.swift; sourceTree = "<group>"; };
+		AEF2F7831FAD2EFB00509638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF2F7881FAD2EFB00509638 /* Help ButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Help ButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF2F78C1FAD2EFB00509638 /* Help_ButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_ButtonUITests.swift; sourceTree = "<group>"; };
+		AEF2F78E1FAD2EFB00509638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF2F7661FAD2EFB00509638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF2F77A1FAD2EFB00509638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF2F7851FAD2EFB00509638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEF2F7601FAD2EFB00509638 = {
+			isa = PBXGroup;
+			children = (
+				AEF2F76B1FAD2EFB00509638 /* Help Button */,
+				AEF2F7801FAD2EFB00509638 /* Help ButtonTests */,
+				AEF2F78B1FAD2EFB00509638 /* Help ButtonUITests */,
+				AEF2F76A1FAD2EFB00509638 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF2F76A1FAD2EFB00509638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2F7691FAD2EFB00509638 /* Help Button.app */,
+				AEF2F77D1FAD2EFB00509638 /* Help ButtonTests.xctest */,
+				AEF2F7881FAD2EFB00509638 /* Help ButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF2F76B1FAD2EFB00509638 /* Help Button */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2F76C1FAD2EFB00509638 /* AppDelegate.swift */,
+				AEF2F76E1FAD2EFB00509638 /* ViewController.swift */,
+				AEF2F7701FAD2EFB00509638 /* Main.storyboard */,
+				AEF2F7731FAD2EFB00509638 /* Assets.xcassets */,
+				AEF2F7751FAD2EFB00509638 /* LaunchScreen.storyboard */,
+				AEF2F7781FAD2EFB00509638 /* Info.plist */,
+			);
+			path = "Help Button";
+			sourceTree = "<group>";
+		};
+		AEF2F7801FAD2EFB00509638 /* Help ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2F7811FAD2EFB00509638 /* Help_ButtonTests.swift */,
+				AEF2F7831FAD2EFB00509638 /* Info.plist */,
+			);
+			path = "Help ButtonTests";
+			sourceTree = "<group>";
+		};
+		AEF2F78B1FAD2EFB00509638 /* Help ButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2F78C1FAD2EFB00509638 /* Help_ButtonUITests.swift */,
+				AEF2F78E1FAD2EFB00509638 /* Info.plist */,
+			);
+			path = "Help ButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEF2F7681FAD2EFB00509638 /* Help Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF2F7911FAD2EFB00509638 /* Build configuration list for PBXNativeTarget "Help Button" */;
+			buildPhases = (
+				AEF2F7651FAD2EFB00509638 /* Sources */,
+				AEF2F7661FAD2EFB00509638 /* Frameworks */,
+				AEF2F7671FAD2EFB00509638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Help Button";
+			productName = "Help Button";
+			productReference = AEF2F7691FAD2EFB00509638 /* Help Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEF2F77C1FAD2EFB00509638 /* Help ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF2F7941FAD2EFB00509638 /* Build configuration list for PBXNativeTarget "Help ButtonTests" */;
+			buildPhases = (
+				AEF2F7791FAD2EFB00509638 /* Sources */,
+				AEF2F77A1FAD2EFB00509638 /* Frameworks */,
+				AEF2F77B1FAD2EFB00509638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF2F77F1FAD2EFB00509638 /* PBXTargetDependency */,
+			);
+			name = "Help ButtonTests";
+			productName = "Help ButtonTests";
+			productReference = AEF2F77D1FAD2EFB00509638 /* Help ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEF2F7871FAD2EFB00509638 /* Help ButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF2F7971FAD2EFB00509638 /* Build configuration list for PBXNativeTarget "Help ButtonUITests" */;
+			buildPhases = (
+				AEF2F7841FAD2EFB00509638 /* Sources */,
+				AEF2F7851FAD2EFB00509638 /* Frameworks */,
+				AEF2F7861FAD2EFB00509638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF2F78A1FAD2EFB00509638 /* PBXTargetDependency */,
+			);
+			name = "Help ButtonUITests";
+			productName = "Help ButtonUITests";
+			productReference = AEF2F7881FAD2EFB00509638 /* Help ButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEF2F7611FAD2EFB00509638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Wesly;
+				TargetAttributes = {
+					AEF2F7681FAD2EFB00509638 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AEF2F77C1FAD2EFB00509638 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AEF2F7681FAD2EFB00509638;
+					};
+					AEF2F7871FAD2EFB00509638 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AEF2F7681FAD2EFB00509638;
+					};
+				};
+			};
+			buildConfigurationList = AEF2F7641FAD2EFB00509638 /* Build configuration list for PBXProject "Help Button" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEF2F7601FAD2EFB00509638;
+			productRefGroup = AEF2F76A1FAD2EFB00509638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEF2F7681FAD2EFB00509638 /* Help Button */,
+				AEF2F77C1FAD2EFB00509638 /* Help ButtonTests */,
+				AEF2F7871FAD2EFB00509638 /* Help ButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF2F7671FAD2EFB00509638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF2F7771FAD2EFB00509638 /* LaunchScreen.storyboard in Resources */,
+				AEF2F7741FAD2EFB00509638 /* Assets.xcassets in Resources */,
+				AEF2F7721FAD2EFB00509638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF2F77B1FAD2EFB00509638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF2F7861FAD2EFB00509638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF2F7651FAD2EFB00509638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF2F76F1FAD2EFB00509638 /* ViewController.swift in Sources */,
+				AEF2F76D1FAD2EFB00509638 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF2F7791FAD2EFB00509638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF2F7821FAD2EFB00509638 /* Help_ButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF2F7841FAD2EFB00509638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF2F78D1FAD2EFB00509638 /* Help_ButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEF2F77F1FAD2EFB00509638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF2F7681FAD2EFB00509638 /* Help Button */;
+			targetProxy = AEF2F77E1FAD2EFB00509638 /* PBXContainerItemProxy */;
+		};
+		AEF2F78A1FAD2EFB00509638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF2F7681FAD2EFB00509638 /* Help Button */;
+			targetProxy = AEF2F7891FAD2EFB00509638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEF2F7701FAD2EFB00509638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF2F7711FAD2EFB00509638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF2F7751FAD2EFB00509638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF2F7761FAD2EFB00509638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEF2F78F1FAD2EFB00509638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEF2F7901FAD2EFB00509638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF2F7921FAD2EFB00509638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CTJXY32PZ;
+				INFOPLIST_FILE = "Help Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wesly.Help-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEF2F7931FAD2EFB00509638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CTJXY32PZ;
+				INFOPLIST_FILE = "Help Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wesly.Help-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEF2F7951FAD2EFB00509638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CTJXY32PZ;
+				INFOPLIST_FILE = "Help ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wesly.Help-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Help Button.app/Help Button";
+			};
+			name = Debug;
+		};
+		AEF2F7961FAD2EFB00509638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CTJXY32PZ;
+				INFOPLIST_FILE = "Help ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wesly.Help-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Help Button.app/Help Button";
+			};
+			name = Release;
+		};
+		AEF2F7981FAD2EFB00509638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CTJXY32PZ;
+				INFOPLIST_FILE = "Help ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wesly.Help-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Help Button";
+			};
+			name = Debug;
+		};
+		AEF2F7991FAD2EFB00509638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CTJXY32PZ;
+				INFOPLIST_FILE = "Help ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wesly.Help-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Help Button";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEF2F7641FAD2EFB00509638 /* Build configuration list for PBXProject "Help Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF2F78F1FAD2EFB00509638 /* Debug */,
+				AEF2F7901FAD2EFB00509638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF2F7911FAD2EFB00509638 /* Build configuration list for PBXNativeTarget "Help Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF2F7921FAD2EFB00509638 /* Debug */,
+				AEF2F7931FAD2EFB00509638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF2F7941FAD2EFB00509638 /* Build configuration list for PBXNativeTarget "Help ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF2F7951FAD2EFB00509638 /* Debug */,
+				AEF2F7961FAD2EFB00509638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF2F7971FAD2EFB00509638 /* Build configuration list for PBXNativeTarget "Help ButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF2F7981FAD2EFB00509638 /* Debug */,
+				AEF2F7991FAD2EFB00509638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEF2F7611FAD2EFB00509638 /* Project object */;
+}
